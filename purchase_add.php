@@ -57,7 +57,7 @@ try{
 ?>
 
 <h1>買取情報登録</h1>
-<table border="1">
+<table class="purchase_search_table" border="1">
   <tr>
     <th>顧客ID</th>
     <th>氏　名</th>
@@ -99,13 +99,6 @@ try{
       <button type="submit">検索</button>
     </p>
 </form>
-
-<p>
-  <a href="customer_list.php">顧客情報一覧</a>
-</p>
-<p>
-  <a href="purchase_list.php">買取情報一覧</a>
-</p>
 
 <?php
 }catch(PDOException $e){
