@@ -30,16 +30,13 @@ try{
     <td><?= str2html($row['purchase_date']); ?></td>
     <td><?= str2html($row['customer_id']); ?></td>
     <td><?= str2html($row['customer_name']); ?></td>
-    <td><?= str2html($row['total_amount']); ?></td>
+    <td class="right"><?= number_format(str2html($row['total_amount'])); ?></td>
     <td><?= str2html($row['status']); ?></td>
-    <td><a href="purchase_edit.php?purchase_id=<?= str2html((string)$row['purchase_id']); ?>">更　新</a></td>
-    <td><a href="purchase_delete.php?purchase_id=<?= str2html((string)$row['purchase_id']); ?>">削　除</a></td>
+    <td><a href="purchase_edit.php?purchase_id=<?= str2html((string)$row['purchase_id']); ?>">更新</a></td>
+    <td><a href="purchase_delete.php?purchase_id=<?= str2html((string)$row['purchase_id']); ?>">削除</a></td>
   </tr>
   <?php endwhile; ?>
 </table>
-<p>
-  <a href="customer_list.php">顧客情報一覧</a>
-</p>
 <p>
   <a href="purchase_add.php">買取情報を登録</a>
 </p>
