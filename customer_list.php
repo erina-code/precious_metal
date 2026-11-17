@@ -9,7 +9,9 @@ try{
   $stmt -> execute();
 ?>
 
-<table border="1">
+<h1>顧客情報一覧</h1>
+<div class="table_scroll">
+<table class="customer_table" border="1" >
   <tr>
     <th>顧客コード</th>
     <th>登録日</th>
@@ -39,11 +41,9 @@ try{
   </tr>
   <?php endwhile; ?>
 </table>
+</div>
 <p>
   <a href="customer_add.php">顧客登録へ戻る</a>
-</p>
-<p>
-  <a href="purchase_list.php">買取情報一覧</a>
 </p>
 
 <?php
