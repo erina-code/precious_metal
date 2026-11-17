@@ -2,9 +2,15 @@
 金・プラチナ・シルバーなどの貴金属買取業務を管理するWebアプリケーションです。
 顧客情報の管理から買取受付、買取明細の登録までを行うことができます。
 
+## 画面イメージ
+<img width="1146" height="473" alt="スクリーンショット 2026-11-17 11 58 10" src="https://github.com/user-attachments/assets/651a1089-3d1d-482c-afcf-cf2803147df9" />
+<img width="1437" height="608" alt="スクリーンショット 2026-11-17 11 58 36" src="https://github.com/user-attachments/assets/8df6e1e6-3b59-44c9-be97-cd88458b48fe" />
+<img width="574" height="744" alt="スクリーンショット 2026-11-17 12 00 31" src="https://github.com/user-attachments/assets/f5f2c17b-3aad-4647-9026-b520540de20b" />
+
 ## 使用技術
 - PHP
 - MySQL
+- PDO
 - HTML
 - CSS
 - JavaScript
